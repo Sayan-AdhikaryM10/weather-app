@@ -52,7 +52,7 @@ To run this project locally on your machine, follow these steps:
 
 *(Replace the placeholder links below with actual screenshots of your app once uploaded to your repository)*
 
-![App Screenshot](\Home.png)
+![App Screenshot](weather-app\Home.png)
 
 ## 💡 Future Improvements
 
