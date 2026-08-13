@@ -20,7 +20,7 @@ An interactive, map-based weather dashboard that allows users to click anywhere 
 
 ## 🔗 Live Demo
 
-> **[Insert Live Demo Link Here]** *(https://sayan-adhikarym10.github.io/weather-app/)*
+> **[Insert Live Demo Link Here]** *()*
 
 ## 🛠️ Installation & Setup
 
