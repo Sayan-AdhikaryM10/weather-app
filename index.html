@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Map Weather App</title>
+  
+  <!-- Leaflet CSS for the map styling -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <h1>Click Anywhere on the Map</h1>
+    </header>
+    
+    <!-- The Interactive Map Container -->
+    <div id="map"></div>
+
+    <!-- Floating Weather Display Panel -->
+    <div id="weather-panel" class="hidden">
+      <h2 id="location-name">Location</h2>
+      <div class="temperature"><span id="temp-value">--</span>°C</div>
+      <p id="weather-description">Description</p>
+      
+      <div class="details">
+        <div class="detail">
+          <span>Humidity</span>
+          <span id="humidity">--%</span>
+        </div>
+        <div class="detail">
+          <span>Wind</span>
+          <span id="wind-speed">-- m/s</span>
+        </div>
+      </div>
+      <button id="close-panel">Close</button>
+    </div>
+  </div>
+
+  <!-- Leaflet JS Library -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <!-- Your Custom Script -->
+  <script src="script.js"></script>
+</body>
+</html>

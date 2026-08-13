@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #1e3c72;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  width: 95%;
+  max-width: 900px;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  position: relative; /* Crucial for placing the weather panel */
+}
+
+header {
+  padding: 1rem;
+  background: #2a5298;
+  color: white;
+  text-align: center;
+}
+
+/* The map takes up all remaining space */
+#map {
+  flex-grow: 1;
+  width: 100%;
+  cursor: crosshair;
+}
+
+/* The floating weather card */
+#weather-panel {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.95);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  text-align: center;
+  z-index: 1000; /* Keeps it on top of the Leaflet map */
+  min-width: 250px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.temperature {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #ff6b6b;
+}
+
+#weather-description {
+  text-transform: capitalize;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#close-panel {
+  padding: 8px 16px;
+  border: none;
+  background: #2a5298;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  width: 100%;
+}
+
+#close-panel:hover {
+  background: #1e3c72;
+}
