@@ -52,7 +52,7 @@ To run this project locally on your machine, follow these steps:
 
 *(Replace the placeholder links below with actual screenshots of your app once uploaded to your repository)*
 
-![App Screenshot](./assets/images/Home.png)
+![App Screenshot](\Home.png)
 
 ## 💡 Future Improvements
 
