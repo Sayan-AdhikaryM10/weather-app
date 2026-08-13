@@ -20,7 +20,7 @@ An interactive, map-based weather dashboard that allows users to click anywhere 
 
 ## 🔗 Live Demo
 
-> **[Insert Live Demo Link Here]** *()*
+> **[Insert Live Demo Link Here]** *(https://weather-app2-orpin.vercel.app/)*
 
 ## 🛠️ Installation & Setup
 
@@ -33,7 +33,7 @@ To run this project locally on your machine, follow these steps:
 
 2. **Navigate to the project directory:**
    ```bash
-   cd world-weather-app
+   cd weather-app
    ```
 
 3. **Get a free API Key:**
@@ -52,7 +52,7 @@ To run this project locally on your machine, follow these steps:
 
 *(Replace the placeholder links below with actual screenshots of your app once uploaded to your repository)*
 
-![App Screenshot](weather-app\Home.png)
+![App Screenshot](weather-app/Home.png)
 
 ## 💡 Future Improvements
 
